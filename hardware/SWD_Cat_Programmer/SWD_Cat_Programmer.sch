@@ -30,7 +30,7 @@ U 1 1 5F2680CE
 P 9605 1880
 F 0 "J1" H 9655 2297 50  0000 C CNN
 F 1 "DEBUG_OUT" H 9655 2206 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 9605 1880 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal" H 9605 1880 50  0001 C CNN
 F 3 "~" H 9605 1880 50  0001 C CNN
 	1    9605 1880
 	1    0    0    -1  
@@ -191,7 +191,7 @@ Wire Wire Line
 Wire Wire Line
 	2280 2010 2370 2010
 Wire Wire Line
-	1680 3210 1680 3270
+	1680 3210 1680 3245
 $Comp
 L power:GND #PWR01
 U 1 1 5F2742EE
@@ -520,7 +520,6 @@ F 3 "" H 2405 1630 50  0001 C CNN
 	1    2405 1630
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1380 3210
 NoConn ~ 5380 2940
 $Comp
 L Regulator_Linear:AP2112K-3.3 U2
@@ -666,4 +665,11 @@ Wire Wire Line
 Connection ~ 2405 1710
 Wire Wire Line
 	2405 1710 2475 1710
+Wire Wire Line
+	1380 3210 1380 3245
+Wire Wire Line
+	1380 3245 1680 3245
+Connection ~ 1680 3245
+Wire Wire Line
+	1680 3245 1680 3270
 $EndSCHEMATC
