@@ -347,11 +347,11 @@ Wire Wire Line
 	5380 3240 5530 3240
 Wire Wire Line
 	5380 3140 5535 3140
-Text Label 5820 3140 0    50   ~ 0
+Text Label 6265 3140 0    50   ~ 0
 SWDIO
-Text Label 5815 3240 0    50   ~ 0
+Text Label 6260 3240 0    50   ~ 0
 SWCLK
-Text Label 5820 3340 0    50   ~ 0
+Text Label 6265 3340 0    50   ~ 0
 RESET
 $Comp
 L Device:R_Small R5
@@ -386,12 +386,6 @@ F 3 "~" H 5630 3340 50  0001 C CNN
 	1    5630 3340
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5730 3240 5815 3240
-Wire Wire Line
-	5730 3340 5820 3340
-Wire Wire Line
-	5735 3140 5820 3140
 Wire Wire Line
 	5380 3040 5535 3040
 Text Label 5535 3040 0    50   ~ 0
@@ -672,4 +666,83 @@ Wire Wire Line
 Connection ~ 1680 3245
 Wire Wire Line
 	1680 3245 1680 3270
+$Comp
+L Device:R_Small R9
+U 1 1 5F37508C
+P 5890 3000
+F 0 "R9" V 5820 3045 50  0000 C CNN
+F 1 "70" V 5880 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5890 3000 50  0001 C CNN
+F 3 "~" H 5890 3000 50  0001 C CNN
+	1    5890 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 5F3755BC
+P 6035 3000
+F 0 "R10" V 5965 3045 50  0000 C CNN
+F 1 "70" V 6025 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6035 3000 50  0001 C CNN
+F 3 "~" H 6035 3000 50  0001 C CNN
+	1    6035 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 5F375902
+P 6180 3000
+F 0 "R11" V 6110 3045 50  0000 C CNN
+F 1 "70" V 6170 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6180 3000 50  0001 C CNN
+F 3 "~" H 6180 3000 50  0001 C CNN
+	1    6180 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5735 3140 5890 3140
+Wire Wire Line
+	5730 3240 6035 3240
+Wire Wire Line
+	5730 3340 6180 3340
+Wire Wire Line
+	5890 3100 5890 3140
+Connection ~ 5890 3140
+Wire Wire Line
+	5890 3140 6265 3140
+Wire Wire Line
+	6035 3100 6035 3240
+Connection ~ 6035 3240
+Wire Wire Line
+	6035 3240 6260 3240
+Wire Wire Line
+	6180 3100 6180 3340
+Connection ~ 6180 3340
+Wire Wire Line
+	6180 3340 6265 3340
+$Comp
+L power:+3V3 #PWR018
+U 1 1 5F387CBC
+P 6035 2745
+F 0 "#PWR018" H 6035 2595 50  0001 C CNN
+F 1 "+3V3" H 6050 2918 50  0000 C CNN
+F 2 "" H 6035 2745 50  0001 C CNN
+F 3 "" H 6035 2745 50  0001 C CNN
+	1    6035 2745
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5890 2900 5890 2795
+Wire Wire Line
+	5890 2795 6035 2795
+Wire Wire Line
+	6180 2795 6180 2900
+Connection ~ 6035 2795
+Wire Wire Line
+	6035 2795 6180 2795
+Wire Wire Line
+	6035 2795 6035 2745
+Connection ~ 6035 2895
+Wire Wire Line
+	6035 2795 6035 2900
 $EndSCHEMATC
