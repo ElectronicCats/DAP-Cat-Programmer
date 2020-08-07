@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "CMIS DAP Cat Programmer"
-Date "2020-08-02"
+Date "2020-08-07"
 Rev "1.0"
 Comp "Electronic Cats"
 Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment2 "Eduaro Wero"
+Comment3 "Felipe Islas"
 Comment4 "Andres Sabas"
 $EndDescr
 $Comp
@@ -80,8 +80,6 @@ Wire Wire Line
 	4455 2440 4455 2405
 Wire Wire Line
 	4730 2690 4365 2690
-Wire Wire Line
-	4215 2690 4215 2620
 $Comp
 L power:+3V3 #PWR06
 U 1 1 5F26D013
@@ -96,12 +94,12 @@ $EndComp
 $Comp
 L power:+5V #PWR04
 U 1 1 5F26D6C6
-P 4215 2620
-F 0 "#PWR04" H 4215 2470 50  0001 C CNN
-F 1 "+5V" H 4230 2793 50  0000 C CNN
-F 2 "" H 4215 2620 50  0001 C CNN
-F 3 "" H 4215 2620 50  0001 C CNN
-	1    4215 2620
+P 3835 2315
+F 0 "#PWR04" H 3835 2165 50  0001 C CNN
+F 1 "+5V" H 3850 2488 50  0000 C CNN
+F 2 "" H 3835 2315 50  0001 C CNN
+F 3 "" H 3835 2315 50  0001 C CNN
+	1    3835 2315
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -148,7 +146,7 @@ F 3 "~" H 4580 2540 50  0001 C CNN
 $EndComp
 Connection ~ 4580 2440
 Wire Wire Line
-	4580 2440 4455 2440
+	4580 2440 4465 2440
 Wire Wire Line
 	4580 2640 4580 2930
 $Comp
@@ -742,7 +740,26 @@ Wire Wire Line
 	6035 2795 6180 2795
 Wire Wire Line
 	6035 2795 6035 2745
-Connection ~ 6035 2895
 Wire Wire Line
 	6035 2795 6035 2900
+$Comp
+L Jumper:Jumper_3_Bridged12 JP1
+U 1 1 5F2F87B3
+P 4215 2440
+F 0 "JP1" H 4215 2644 50  0000 C CNN
+F 1 "Jumper" H 4215 2553 50  0000 C CNN
+F 2 "" H 4215 2440 50  0001 C CNN
+F 3 "~" H 4215 2440 50  0001 C CNN
+	1    4215 2440
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4465 2440
+Wire Wire Line
+	4465 2440 4455 2440
+Wire Wire Line
+	4215 2590 4215 2690
+Wire Wire Line
+	3965 2440 3835 2440
+Wire Wire Line
+	3835 2440 3835 2315
 $EndSCHEMATC
