@@ -24,7 +24,7 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 
 # Tutorials
 
-In order to help you use CMSIS-DAP Cat Programmer in your development environment, we have provided a series of tutorials. Find the details below:
+In order to help you use CMSIS-DAP Cat Programmer in your development environment, we have provided a series of tutorials. Find the details below in our Wiki:
 
 - Getting Started with CMSIS-DAP Cat Programmer
 - Using CMSIS-DAP Cat Programmer with pyOCD
