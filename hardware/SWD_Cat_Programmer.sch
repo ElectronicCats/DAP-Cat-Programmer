@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "CMIS DAP Cat Programmer"
 Date "2020-08-07"
-Rev "1.0"
+Rev "1.1"
 Comp "Electronic Cats"
 Comment1 ""
 Comment2 "Eduaro Wero"
@@ -22,17 +22,6 @@ F 1 "USB_C_Plug_USB2.0" H 1787 3086 50  0000 C CNN
 F 2 "Connectors:C393939" H 1830 2310 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1830 2310 50  0001 C CNN
 	1    1680 2310
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
-U 1 1 5F2680CE
-P 9605 1880
-F 0 "J1" H 9655 2297 50  0000 C CNN
-F 1 "DEBUG_OUT" H 9655 2206 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal" H 9605 1880 50  0001 C CNN
-F 3 "~" H 9605 1880 50  0001 C CNN
-	1    9605 1880
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -58,7 +47,7 @@ F 3 "~" H 2470 1910 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SWD_Cat_Programmer-rescue:CH552G-Electronic_Cats U1
+L SWD_Cat_Programmer-rescue:CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue U1
 U 1 1 5F26B9A6
 P 5030 2390
 F 0 "U1" H 5055 2815 50  0000 C CNN
@@ -313,30 +302,21 @@ Text Label 8390 4265 0    50   ~ 0
 D+
 Text Label 8110 3865 0    50   ~ 0
 RST
-Text Label 9905 1680 0    50   ~ 0
+Text Label 9405 1780 2    50   ~ 0
 SWDIO
-Text Label 9905 1780 0    50   ~ 0
+Text Label 9405 1880 2    50   ~ 0
 SWCLK
-Text Label 9905 2080 0    50   ~ 0
+Text Label 9405 2080 2    50   ~ 0
 RESET
-Wire Wire Line
-	9405 1780 9195 1780
-Wire Wire Line
-	9195 1780 9195 1880
-Wire Wire Line
-	9405 1880 9195 1880
-Connection ~ 9195 1880
-Wire Wire Line
-	9195 1880 9195 2065
 $Comp
 L power:GND #PWR013
 U 1 1 5F27EA9C
-P 9195 2325
-F 0 "#PWR013" H 9195 2075 50  0001 C CNN
-F 1 "GND" H 9200 2152 50  0000 C CNN
-F 2 "" H 9195 2325 50  0001 C CNN
-F 3 "" H 9195 2325 50  0001 C CNN
-	1    9195 2325
+P 9100 2125
+F 0 "#PWR013" H 9100 1875 50  0001 C CNN
+F 1 "GND" H 9105 1952 50  0000 C CNN
+F 2 "" H 9100 2125 50  0001 C CNN
+F 3 "" H 9100 2125 50  0001 C CNN
+	1    9100 2125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -514,49 +494,20 @@ F 3 "" H 2405 1630 50  0001 C CNN
 $EndComp
 NoConn ~ 5380 2940
 $Comp
-L Regulator_Linear:AP2112K-3.3 U2
-U 1 1 5F292947
-P 9695 5595
-F 0 "U2" H 9695 5937 50  0000 C CNN
-F 1 "HX9193-33GB" H 9695 5846 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9695 5920 50  0001 C CNN
-F 3 "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_HX-hengjiaxing-HX9193-33GB_C296123.html" H 9695 5695 50  0001 C CNN
-	1    9695 5595
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR012
 U 1 1 5F2A3F1C
-P 9105 1580
-F 0 "#PWR012" H 9105 1430 50  0001 C CNN
-F 1 "+3V3" H 9120 1753 50  0000 C CNN
-F 2 "" H 9105 1580 50  0001 C CNN
-F 3 "" H 9105 1580 50  0001 C CNN
-	1    9105 1580
+P 9175 1640
+F 0 "#PWR012" H 9175 1490 50  0001 C CNN
+F 1 "+3V3" H 9190 1813 50  0000 C CNN
+F 2 "" H 9175 1640 50  0001 C CNN
+F 3 "" H 9175 1640 50  0001 C CNN
+	1    9175 1640
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9405 1680 9105 1680
-Wire Wire Line
-	9105 1680 9105 1580
-Wire Wire Line
-	8760 1690 9105 1690
-Wire Wire Line
-	9105 1690 9105 1680
-Wire Wire Line
 	8760 1690 8760 1755
-Connection ~ 9105 1680
 Wire Wire Line
 	8760 1955 8760 2065
-Wire Wire Line
-	8760 2065 9195 2065
-Connection ~ 9195 2065
-Wire Wire Line
-	9195 2065 9195 2325
-NoConn ~ 9405 1980
-NoConn ~ 9905 1980
-NoConn ~ 9905 1880
-NoConn ~ 9405 2080
 Wire Notes Line
 	3255 7770 3255 475 
 Wire Notes Line
@@ -762,4 +713,56 @@ Wire Wire Line
 	3965 2440 3835 2440
 Wire Wire Line
 	3835 2440 3835 2315
+$Comp
+L Regulator_Linear:AP2112K-3.3 U2
+U 1 1 5F4DC1B0
+P 9695 5595
+F 0 "U2" H 9695 5937 50  0000 C CNN
+F 1 "AP2112K-3.3" H 9695 5846 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9695 5920 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 9695 5695 50  0001 C CNN
+	1    9695 5595
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5F4EF801
+P 9605 1880
+F 0 "J1" H 9685 1922 50  0000 L CNN
+F 1 "DEBUG_OUTPUT" H 9325 2230 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 9605 1880 50  0001 C CNN
+F 3 "~" H 9605 1880 50  0001 C CNN
+	1    9605 1880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9405 1680 9175 1680
+Wire Wire Line
+	9175 1680 9175 1640
+Wire Wire Line
+	9100 2125 9100 1980
+Wire Wire Line
+	9100 1980 9405 1980
+$Comp
+L power:+3V3 #PWR019
+U 1 1 5F4F7B85
+P 8760 1690
+F 0 "#PWR019" H 8760 1540 50  0001 C CNN
+F 1 "+3V3" H 8775 1863 50  0000 C CNN
+F 2 "" H 8760 1690 50  0001 C CNN
+F 3 "" H 8760 1690 50  0001 C CNN
+	1    8760 1690
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5F4F8184
+P 8760 2065
+F 0 "#PWR020" H 8760 1815 50  0001 C CNN
+F 1 "GND" H 8765 1892 50  0000 C CNN
+F 2 "" H 8760 2065 50  0001 C CNN
+F 3 "" H 8760 2065 50  0001 C CNN
+	1    8760 2065
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

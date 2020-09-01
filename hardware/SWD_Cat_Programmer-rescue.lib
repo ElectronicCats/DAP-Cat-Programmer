@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# CH552G-Electronic_Cats
+# CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue
 #
-DEF CH552G-Electronic_Cats U 0 40 Y Y 1 F N
+DEF CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue U 0 40 Y Y 1 F N
 F0 "U" -150 -1050 50 H V C CNN
-F1 "CH552G-Electronic_Cats" 100 300 50 H V C CNN
+F1 "CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue" 100 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
