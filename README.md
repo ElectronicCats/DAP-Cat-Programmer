@@ -9,7 +9,6 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 
 ## Features
 - CH552G microcontroller
-- 50 MHz Arm® Cortex-M0 processor
 - 16KB Flash, 1KB xRAM & 256B iRAM;
 - ROM-based USB drivers. Flash updates via USB supported.
 - Shipped with Arm Mbed DAPLink Firmware
@@ -19,12 +18,24 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 - 3.3V DC-DC regulator with 1A output current
 - 3.3V Digital I/O Operating Voltage
 - Reversible USB-C Connector
-- Easy-to-use 7-pin 2.54mm Header with SWD & UART interface
+- Easy-to-use 5-pin 2.54mm Header with SWD & UART interface
 - Very small form factor: 20 x 48 mm
 
 ## Tutorials
 
 In order to help you use CMSIS-DAP Cat Programmer in your development environment, we have provided a series of tutorials. Find the details below in our Wiki
+
+## Software compatible
+**Tested**
+
+- openocd
+- [edbg](https://github.com/ataradov/edbg)
+
+**Without Test**
+- PyOCD()
+- Dap.js()
+- Keil
+- IAR
 
 ## Special Thanks
 
