@@ -3,7 +3,7 @@
 An Open-Source CMSIS-DAP Debug Probe based on DAPLink
 
 ## Description
-CMSIS-DAP Cat Programmer is a low-cost of $2 dollars debug probe based on the CMSIS-DAP (also known as DAPLink) protocol standard. It can be used to program and debug the application software running on Arm Cortex Microcontrollers.
+DAP Cat Programmer is a low-cost of $2 dollars debug probe based on the CMSIS-DAP (also known as DAPLink) protocol standard. It can be used to program and debug the application software running on Arm Cortex Microcontrollers.
 
 The probe comes with indicator LEDs, a button to reset the target or trigger the firmware update, reversible USB-C connector and easy-to-use 10-pin 2.54mm Header.
 
