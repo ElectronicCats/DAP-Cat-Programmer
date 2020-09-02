@@ -22,24 +22,20 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 - Easy-to-use 7-pin 2.54mm Header with SWD & UART interface
 - Very small form factor: 20 x 48 mm
 
-# Tutorials
+## Tutorials
 
-In order to help you use CMSIS-DAP Cat Programmer in your development environment, we have provided a series of tutorials. Find the details below in our Wiki:
+In order to help you use CMSIS-DAP Cat Programmer in your development environment, we have provided a series of tutorials. Find the details below in our Wiki
 
-- Getting Started with CMSIS-DAP Cat Programmer
-- Using CMSIS-DAP Cat Programmer with pyOCD
-- Using CMSIS-DAP Cat Programmer with Visual Studio Code
-- Using CMSIS-DAP Cat Programmer with GNU MCU Eclipse
-- Using CMSIS-DAP Cat Programmer with ARM KEIL MDK
-- Using CMSIS-DAP Cat Programmer with IAR Embedded Workbench
-- Upgrading the CMSIS-DAP Cat Programmer Firmware
-- Building your own CMSIS-DAP Cat Programmer Firmware
+## Special Thanks
 
+- [Deqing Sun](https://github.com/DeqingSun)
+- CH552 Group in Telegram 
+
+
+## License
 Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
 
 Designed by Electronic Cats.
-
-## License
 
 Firmware released under an GNU AGPL v3.0 license. See the LICENSE file for more information.
 
