@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "CMIS DAP Cat Programmer"
-Date "2020-08-07"
+Date "2020-09-01"
 Rev "1.1"
 Comp "Electronic Cats"
 Comment1 ""
-Comment2 "Eduaro Wero"
+Comment2 "Eduaro Contreras"
 Comment3 "Felipe Islas"
 Comment4 "Andres Sabas"
 $EndDescr
@@ -47,7 +47,7 @@ F 3 "~" H 2470 1910 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SWD_Cat_Programmer-rescue:CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue U1
+L SWD_Cat_Programmer-rescue:CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue-SWD_Cat_Programmer-rescue U1
 U 1 1 5F26B9A6
 P 5030 2390
 F 0 "U1" H 5055 2815 50  0000 C CNN

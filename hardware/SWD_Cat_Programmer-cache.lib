@@ -107,9 +107,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 8 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -142,9 +142,7 @@ F1 "Jumper_Jumper_3_Bridged12" 0 110 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Jumper*
- TestPoint*3Pads*
- TestPoint*Bridge*
+ SolderJumper*Bridged12*
 $ENDFPLIST
 DRAW
 A -65 -50 89 1282 518 0 1 0 N -120 20 -10 20
@@ -179,15 +177,15 @@ X VOUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# SWD_Cat_Programmer-rescue_CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue
+# SWD_Cat_Programmer-rescue_CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue-SWD_Cat_Programmer-rescue
 #
-DEF SWD_Cat_Programmer-rescue_CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue U 0 40 Y Y 1 F N
+DEF SWD_Cat_Programmer-rescue_CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue-SWD_Cat_Programmer-rescue U 0 40 Y Y 1 F N
 F0 "U" -150 -1050 50 H V C CNN
-F1 "SWD_Cat_Programmer-rescue_CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue" 100 300 50 H V C CNN
+F1 "SWD_Cat_Programmer-rescue_CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue-SWD_Cat_Programmer-rescue" 100 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -200 250 250 -1000 0 1 0 N
+S -200 250 250 -1000 0 1 0 f
 X P3.2 1 350 -750 100 L 50 50 1 1 I
 X P3.3 10 350 -650 100 L 50 50 1 1 I
 X P3.4 11 350 -550 100 L 50 50 1 1 I
