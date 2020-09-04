@@ -20,7 +20,8 @@ P 1680 2310
 F 0 "P1" H 1787 3177 50  0000 C CNN
 F 1 "USB_C_Plug_USB2.0" H 1787 3086 50  0000 C CNN
 F 2 "Connectors:C393939" H 1830 2310 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1830 2310 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-TYPE-C16PIN_C393939.pdf" H 1830 2310 50  0001 C CNN
+F 4 "C393939" H 1680 2310 50  0001 C CNN "manf#"
 	1    1680 2310
 	1    0    0    -1  
 $EndComp
@@ -31,7 +32,8 @@ P 8760 1855
 F 0 "C3" H 8852 1901 50  0000 L CNN
 F 1 "0.1uF" H 8852 1810 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8760 1855 50  0001 C CNN
-F 3 "~" H 8760 1855 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 8760 1855 50  0001 C CNN
+F 4 "C49678" H 8760 1855 50  0001 C CNN "manf#"
 	1    8760 1855
 	1    0    0    -1  
 $EndComp
@@ -42,18 +44,20 @@ P 2470 1910
 F 0 "R1" V 2405 1855 50  0000 C CNN
 F 1 "5.1K" V 2405 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2470 1910 50  0001 C CNN
-F 3 "~" H 2470 1910 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810311431_YAGEO-RC0805JR-075K1L_C105874.pdf" H 2470 1910 50  0001 C CNN
+F 4 "C105874" V 2470 1910 50  0001 C CNN "manf#"
 	1    2470 1910
 	0    1    1    0   
 $EndComp
 $Comp
-L SWD_Cat_Programmer-rescue:CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue-SWD_Cat_Programmer-rescue U1
+L SWD_Cat_Programmer-rescue:CH552G-Electronic_Cats-SWD_Cat_Programmer-rescue-SWD_Cat_Programmer-rescue-SWD_Cat_Programmer-rescue U1
 U 1 1 5F26B9A6
 P 5030 2390
 F 0 "U1" H 5055 2815 50  0000 C CNN
 F 1 "CH552G" H 5055 2724 50  0000 C CNN
 F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 5030 2390 50  0001 C CNN
-F 3 "" H 5030 2390 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2008191734_WCH-Jiangsu-Qin-Heng-CH552G_C111292.pdf" H 5030 2390 50  0001 C CNN
+F 4 "C111292" H 5030 2390 50  0001 C CNN "manf#"
 	1    5030 2390
 	1    0    0    -1  
 $EndComp
@@ -113,7 +117,8 @@ P 4365 2790
 F 0 "C1" H 4190 2820 50  0000 L CNN
 F 1 "0.1uF" H 4115 2715 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4365 2790 50  0001 C CNN
-F 3 "~" H 4365 2790 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 4365 2790 50  0001 C CNN
+F 4 "C49678" H 4365 2790 50  0001 C CNN "manf#"
 	1    4365 2790
 	1    0    0    -1  
 $EndComp
@@ -129,7 +134,8 @@ P 4580 2540
 F 0 "C2" H 4415 2550 50  0000 L CNN
 F 1 "0.1uF" H 4355 2480 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4580 2540 50  0001 C CNN
-F 3 "~" H 4580 2540 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 4580 2540 50  0001 C CNN
+F 4 "C49678" H 4580 2540 50  0001 C CNN "manf#"
 	1    4580 2540
 	1    0    0    -1  
 $EndComp
@@ -169,7 +175,8 @@ P 2470 2010
 F 0 "R2" V 2540 1940 50  0000 C CNN
 F 1 "5.1K" V 2535 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2470 2010 50  0001 C CNN
-F 3 "~" H 2470 2010 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810311431_YAGEO-RC0805JR-075K1L_C105874.pdf" H 2470 2010 50  0001 C CNN
+F 4 "C105874" V 2470 2010 50  0001 C CNN "manf#"
 	1    2470 2010
 	0    1    1    0   
 $EndComp
@@ -199,7 +206,8 @@ P 9625 4060
 F 0 "R7" V 9485 4050 50  0000 C CNN
 F 1 "1K" V 9550 4055 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9625 4060 50  0001 C CNN
-F 3 "~" H 9625 4060 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1809140835_UNI-ROYAL-Uniroyal-Elec-0805W8J0102T5E_C25623.pdf" H 9625 4060 50  0001 C CNN
+F 4 "C25623" V 9625 4060 50  0001 C CNN "manf#"
 	1    9625 4060
 	0    1    1    0   
 $EndComp
@@ -210,7 +218,8 @@ P 9920 4060
 F 0 "D1" H 9915 3960 50  0000 C CNN
 F 1 "LED" H 9910 4165 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 9920 4060 50  0001 C CNN
-F 3 "~" H 9920 4060 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1808272351_Everlight-Elec-17-21SURC-S530-A2-TR8_C131244.pdf" H 9920 4060 50  0001 C CNN
+F 4 "C131244" H 9920 4060 50  0001 C CNN "manf#"
 	1    9920 4060
 	-1   0    0    1   
 $EndComp
@@ -246,7 +255,8 @@ P 7815 3865
 F 0 "SW1" H 7815 4150 50  0000 C CNN
 F 1 "RST" H 7815 4059 50  0000 C CNN
 F 2 "KiCad:TS1088R02026" H 7815 4065 50  0001 C CNN
-F 3 "~" H 7815 4065 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_XUNPU-TS-1088R-02526_C455281.pdf" H 7815 4065 50  0001 C CNN
+F 4 "C455281" H 7815 3865 50  0001 C CNN "manf#"
 	1    7815 3865
 	1    0    0    -1  
 $EndComp
@@ -257,7 +267,8 @@ P 7835 4265
 F 0 "SW2" H 7835 4550 50  0000 C CNN
 F 1 "BOOT" H 7835 4459 50  0000 C CNN
 F 2 "KiCad:TS1088R02026" H 7835 4465 50  0001 C CNN
-F 3 "~" H 7835 4465 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_XUNPU-TS-1088R-02526_C455281.pdf" H 7835 4465 50  0001 C CNN
+F 4 "C455281" H 7835 4265 50  0001 C CNN "manf#"
 	1    7835 4265
 	1    0    0    -1  
 $EndComp
@@ -292,7 +303,8 @@ P 8225 4265
 F 0 "R6" V 8029 4265 50  0000 C CNN
 F 1 "20K" V 8120 4265 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8225 4265 50  0001 C CNN
-F 3 "~" H 8225 4265 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2007131613_HKR-Hong-Kong-Resistors-RCT0520KFLF_C702832.pdf" H 8225 4265 50  0001 C CNN
+F 4 "C702832" V 8225 4265 50  0001 C CNN "manf#"
 	1    8225 4265
 	0    1    1    0   
 $EndComp
@@ -338,7 +350,8 @@ P 5635 3140
 F 0 "R5" V 5565 3185 50  0000 C CNN
 F 1 "150" V 5635 3145 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5635 3140 50  0001 C CNN
-F 3 "~" H 5635 3140 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811081415_RALEC-RTT051500FTP_C103997.pdf" H 5635 3140 50  0001 C CNN
+F 4 "C103997" V 5635 3140 50  0001 C CNN "manf#"
 	1    5635 3140
 	0    1    1    0   
 $EndComp
@@ -349,7 +362,8 @@ P 5630 3240
 F 0 "R3" V 5595 3360 50  0000 C CNN
 F 1 "150" V 5635 3240 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5630 3240 50  0001 C CNN
-F 3 "~" H 5630 3240 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811081415_RALEC-RTT051500FTP_C103997.pdf" H 5630 3240 50  0001 C CNN
+F 4 "C103997" V 5630 3240 50  0001 C CNN "manf#"
 	1    5630 3240
 	0    1    1    0   
 $EndComp
@@ -360,7 +374,8 @@ P 5630 3340
 F 0 "R4" V 5675 3460 50  0000 C CNN
 F 1 "150" V 5700 3340 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5630 3340 50  0001 C CNN
-F 3 "~" H 5630 3340 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811081415_RALEC-RTT051500FTP_C103997.pdf" H 5630 3340 50  0001 C CNN
+F 4 "C103997" V 5630 3340 50  0001 C CNN "manf#"
 	1    5630 3340
 	0    1    1    0   
 $EndComp
@@ -382,7 +397,8 @@ P 9045 5645
 F 0 "C4" H 9137 5691 50  0000 L CNN
 F 1 "1uF" H 9137 5600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9045 5645 50  0001 C CNN
-F 3 "~" H 9045 5645 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810191216_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf" H 9045 5645 50  0001 C CNN
+F 4 "C28323" H 9045 5645 50  0001 C CNN "manf#"
 	1    9045 5645
 	1    0    0    -1  
 $EndComp
@@ -393,7 +409,8 @@ P 10095 5595
 F 0 "C5" H 10187 5641 50  0000 L CNN
 F 1 "1uF" H 10187 5550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10095 5595 50  0001 C CNN
-F 3 "~" H 10095 5595 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810191216_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf" H 10095 5595 50  0001 C CNN
+F 4 "C28323" H 10095 5595 50  0001 C CNN "manf#"
 	1    10095 5595
 	1    0    0    -1  
 $EndComp
@@ -565,7 +582,8 @@ P 9635 3570
 F 0 "R8" V 9495 3560 50  0000 C CNN
 F 1 "1K" V 9560 3565 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9635 3570 50  0001 C CNN
-F 3 "~" H 9635 3570 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1809140835_UNI-ROYAL-Uniroyal-Elec-0805W8J0102T5E_C25623.pdf" H 9635 3570 50  0001 C CNN
+F 4 "C25623" V 9635 3570 50  0001 C CNN "manf#"
 	1    9635 3570
 	0    1    1    0   
 $EndComp
@@ -576,7 +594,8 @@ P 9930 3570
 F 0 "D2" H 9925 3470 50  0000 C CNN
 F 1 "LED" H 9920 3675 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 9930 3570 50  0001 C CNN
-F 3 "~" H 9930 3570 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1808272351_Everlight-Elec-17-21SURC-S530-A2-TR8_C131244.pdf" H 9930 3570 50  0001 C CNN
+F 4 "C131244" H 9930 3570 50  0001 C CNN "manf#"
 	1    9930 3570
 	-1   0    0    1   
 $EndComp
@@ -623,6 +642,7 @@ F 0 "R9" V 5820 3045 50  0000 C CNN
 F 1 "70" V 5880 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5890 3000 50  0001 C CNN
 F 3 "~" H 5890 3000 50  0001 C CNN
+F 4 "C429431" V 5890 3000 50  0001 C CNN "manf#"
 	1    5890 3000
 	-1   0    0    1   
 $EndComp
@@ -634,6 +654,7 @@ F 0 "R10" V 5965 3045 50  0000 C CNN
 F 1 "70" V 6025 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6035 3000 50  0001 C CNN
 F 3 "~" H 6035 3000 50  0001 C CNN
+F 4 "C429431" V 6035 3000 50  0001 C CNN "manf#"
 	1    6035 3000
 	-1   0    0    1   
 $EndComp
@@ -645,6 +666,7 @@ F 0 "R11" V 6110 3045 50  0000 C CNN
 F 1 "70" V 6170 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6180 3000 50  0001 C CNN
 F 3 "~" H 6180 3000 50  0001 C CNN
+F 4 "C429431" V 6180 3000 50  0001 C CNN "manf#"
 	1    6180 3000
 	-1   0    0    1   
 $EndComp
@@ -720,7 +742,8 @@ P 9695 5595
 F 0 "U2" H 9695 5937 50  0000 C CNN
 F 1 "AP2112K-3.3" H 9695 5846 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9695 5920 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 9695 5695 50  0001 C CNN
+F 3 "https://www.mouser.mx/datasheet/2/115/AP2112-271550.pdf" H 9695 5695 50  0001 C CNN
+F 4 "621-AP2112K-3.3TRG1" H 9695 5595 50  0001 C CNN "manf#"
 	1    9695 5595
 	1    0    0    -1  
 $EndComp
@@ -732,6 +755,7 @@ F 0 "J1" H 9685 1922 50  0000 L CNN
 F 1 "DEBUG_OUTPUT" H 9325 2230 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 9605 1880 50  0001 C CNN
 F 3 "~" H 9605 1880 50  0001 C CNN
+F 4 "-" H 9605 1880 50  0001 C CNN "manf#"
 	1    9605 1880
 	1    0    0    -1  
 $EndComp
