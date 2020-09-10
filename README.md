@@ -21,21 +21,18 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 - Easy-to-use 5-pin 2.54mm Header with SWD & UART interface
 - Very small form factor: 20 x 48 mm
 
-## Tutorials
-
-In order to help you use CMSIS-DAP Cat Programmer in your development environment, we have provided a series of tutorials. Find the details below in our Wiki
-
 ## Software compatible
 **Tested**
 
-- openocd
-- [edbg](https://github.com/ataradov/edbg)
+- openOCD
+- Arduino IDE
 
 **Without Test**
 - PyOCD()
 - Dap.js()
 - Keil
 - IAR
+-[edbg](https://github.com/ataradov/edbg)
 
 ## Special Thanks
 
