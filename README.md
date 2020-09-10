@@ -32,7 +32,7 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 - Dap.js()
 - Keil
 - IAR
--[edbg](https://github.com/ataradov/edbg)
+- [edbg](https://github.com/ataradov/edbg)
 
 ## Special Thanks
 
