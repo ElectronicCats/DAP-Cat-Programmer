@@ -1,5 +1,7 @@
 # CMSIS-DAP Cat Programmer
 
+![DAP  cat programmer](https://github.com/ElectronicCats/DAP-Cat-Programmer/raw/master/Docs/dap_cat_programmer.jpg)
+
 An Open-Source CMSIS-DAP Debug Probe based on DAPLink
 
 ## Description
