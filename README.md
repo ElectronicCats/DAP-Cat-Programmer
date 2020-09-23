@@ -37,6 +37,9 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 - IAR
 - [edbg](https://github.com/ataradov/edbg)
 
+## Manual available
+- [Our Wiki](https://github.com/ElectronicCats/DAP-Cat-Programmer/wiki)
+
 ## Special Thanks
 
 - [Deqing Sun](https://github.com/DeqingSun)
