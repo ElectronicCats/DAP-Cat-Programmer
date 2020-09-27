@@ -340,9 +340,7 @@ Wire Wire Line
 Text Label 6265 3140 0    50   ~ 0
 SWDIO
 Text Label 6260 3240 0    50   ~ 0
-SWCLK
-Text Label 6265 3340 0    50   ~ 0
-RESET
+SWCLK_TX
 $Comp
 L Device:R_Small R5
 U 1 1 5F2835E9
@@ -789,4 +787,6 @@ F 3 "" H 8760 2065 50  0001 C CNN
 	1    8760 2065
 	1    0    0    -1  
 $EndComp
+Text Label 6265 3340 0    50   ~ 0
+RESET_RX
 $EndSCHEMATC
