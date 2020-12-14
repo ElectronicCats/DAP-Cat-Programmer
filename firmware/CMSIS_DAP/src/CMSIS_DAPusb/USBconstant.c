@@ -7,7 +7,7 @@ __code uint8_t DevDesc[] = {
     0x10,0x01,  //USB spec release number in BCD format, USB1.1 (0x10, 0x01).
     0x00,0x00,0x00, //bDeviceClass, bDeviceSubClass, bDeviceProtocol
     DEFAULT_ENDP0_SIZE, //PACKET_SIZE
-    0x09,0x12,0x50,0xC5, // VID PID
+    0x09,0x12,0x5D,0xC5, // VID PID
     0x00,0x01,  //version
     0x01,0x02,0x03, //bString
     0x01    //bNumConfigurations
@@ -94,7 +94,8 @@ __code uint8_t SerDes[]={                                 //Serial String Descri
 };
 __code uint16_t SerDesLen = sizeof(SerDes);
 __code uint8_t Prod_Des[]={                                //Produce String Descriptor
-    0x14,0x03,
+    0x20,0x03,
+    'C',0x00,'H',0x00,'5',0x00,'5',0x00,'x',0x00,' ',0x00,
     'C',0x00,'M',0x00,'S',0x00,'I',0x00,'S',0x00,'-',0x00
     ,'D',0x00,'A',0x00, 'P',0x00
 };

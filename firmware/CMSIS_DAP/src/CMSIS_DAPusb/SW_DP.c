@@ -26,21 +26,20 @@
  *---------------------------------------------------------------------------*/
 
 #include "DAP.h"
-#include <Arduino.h>
 
 #define SW_CLOCK_CYCLE() \
-  SWK = 0; delayMicroseconds(1);              \
-  SWK = 1; delayMicroseconds(1);
+  while(!TF2); SWK = 0; TR2=0;TL2=RCAP2L;TH2=RCAP2H;TF2=0;TR2=1;              \
+  while(!TF2); SWK = 1; TR2=0;TL2=RCAP2L;TH2=RCAP2H;TF2=0;TR2=1;
 
 #define SW_WRITE_BIT(bits) \
-  SWD = (bits)&1;          \
-  SWK = 0;  delayMicroseconds(1);               \
-  SWK = 1; delayMicroseconds(1);
+  while(!TF2);SWD = (bits)&1;          \
+  SWK = 0; TR2=0;TL2=RCAP2L;TH2=RCAP2H;TF2=0;TR2=1;               \
+  while(!TF2); SWK = 1; TR2=0;TL2=RCAP2L;TH2=RCAP2H;TF2=0;TR2=1;
 
 #define SW_READ_BIT(bits) \
-  SWK = 0;   delayMicroseconds(1);             \
-  bits = SWD;             \
-  SWK = 1;   delayMicroseconds(1);
+  while(!TF2); SWK = 0; TR2=0;TL2=RCAP2L;TH2=RCAP2H;TF2=0;TR2=1;             \
+  while(!TF2); bits = SWD;             \
+  SWK = 1; TR2=0;TL2=RCAP2L;TH2=RCAP2H;TF2=0;TR2=1;
 
 /** Setup SWD I/O pins: SWCLK, SWDIO, and nRESET.
 Configures the DAP Hardware I/O pins for Serial Wire Debug (SWD) mode:
@@ -88,6 +87,7 @@ void SWJ_Sequence(uint8_t count, const uint8_t *datas)
             val = *datas++;
             n = 8U;
         }
+        while(!TF2);
         if (val & 1U)
         {
             SWD = 1;
@@ -96,9 +96,9 @@ void SWJ_Sequence(uint8_t count, const uint8_t *datas)
         {
             SWD = 0;
         }
-        SWK = 0;
-        delayMicroseconds(1);
-        SWK = 1;
+        
+        SWK = 0; TR2=0;TL2=RCAP2L;TH2=RCAP2H;TF2=0;TR2=1;
+        while(!TF2); SWK = 1; TR2=0;TL2=RCAP2L;TH2=RCAP2H;TF2=0;TR2=1;
         val >>= 1;
         n--;
     }

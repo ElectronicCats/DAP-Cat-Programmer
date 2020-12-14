@@ -213,7 +213,7 @@ extern __idata uint8_t turnaround;
 extern __idata uint8_t data_phase;
 extern __idata uint8_t idle_cycles;
 
-extern void DAP_Thread(void);
+extern uint8_t DAP_Thread(void);
 extern void PORT_SWD_SETUP(void);
 extern uint8_t SWD_Transfer(uint8_t reqI, uint8_t __xdata *datas);
 extern void SWJ_Sequence(uint8_t count, const uint8_t *datas);
