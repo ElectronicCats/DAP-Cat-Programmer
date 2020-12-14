@@ -29,11 +29,11 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 
 - OpenOCD
 - Arduino IDE
+- Keil
+- PyOCD()
 
 **Without Test**
-- PyOCD()
 - Dap.js()
-- Keil
 - IAR
 - [edbg](https://github.com/ataradov/edbg)
 
