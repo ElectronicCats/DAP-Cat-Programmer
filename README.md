@@ -24,6 +24,10 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 - Easy-to-use 5-pin 2.54mm Header with SWD & UART interface
 - Very small form factor: 20 x 48 mm
 
+<a href="https://electroniccats.com/store/nfc-copy-cat/">
+  <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
+</a>
+
 ## Software compatible
 **Tested**
 
@@ -58,6 +62,10 @@ You can use USB Serial (CDC) driver for default CDC USB stack. If you tried to e
 ![OpenSourceLicense](https://github.com/ElectronicCats/AjoloteBoard/raw/master/OpenSourceLicense.png)
 
 Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
+
+<a href="https://electroniccats.com/store/nfc-copy-cat/">
+  <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
+</a>
 
 Designed by Electronic Cats.
 
