@@ -43,6 +43,7 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 
 ## Manual available
 - [Our Wiki](https://github.com/ElectronicCats/DAP-Cat-Programmer/wiki)
+- [How to debug hardware with openocd or pyocd](https://www.hackster.io/sabas1080/how-to-debug-hardware-with-openocd-or-pyocd-e7e718)
 
 ## Driver for windows
 
