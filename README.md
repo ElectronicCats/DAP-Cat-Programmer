@@ -60,7 +60,7 @@ You can use USB Serial (CDC) driver for default CDC USB stack. If you tried to e
 
 
 ## License
-![OpenSourceLicense](https://github.com/ElectronicCats/AjoloteBoard/raw/master/OpenSourceLicense.png)
+LGPL
 
 Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
 
