@@ -70,7 +70,7 @@ Electronic Cats invests time and resources providing this open source design, pl
 
 Designed by Electronic Cats.
 
-Firmware released under an GNU AGPL v3.0 license. See the LICENSE file for more information.
+Firmware released under an GNU LGPL v3.0 license. See the LICENSE file for more information.
 
 Hardware released under an CERN Open Hardware Licence v1.2. See the LICENSE_HARDWARE file for more information.
 
