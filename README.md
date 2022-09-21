@@ -28,6 +28,10 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
   <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
 </a>
 
+
+## Wiki and Getting Started
+[Getting Started in our Wiki](https://github.com/ElectronicCats/DAP-Cat-Programmer/wiki)
+
 ## Software compatible
 **Tested**
 
