@@ -32,3 +32,5 @@ hardware/fp-lib-table
 hardware/sym-lib-table
 
 *.dcm
+
+hardware/SWD_Cat_Programmer-backups/
