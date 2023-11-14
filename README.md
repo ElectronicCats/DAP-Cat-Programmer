@@ -5,7 +5,7 @@
 An Open-Source CMSIS-DAP Debug Probe based on DAPLink
 
 ## Description
-DAP Cat Programmer is a low-cost of $3 dollars debug probe based on the CMSIS-DAP (also known as DAPLink) protocol standard and USB-Serial convert and it can realize USB convert to serial interface. It can be used to program and debug the application software running on Arm Cortex Microcontrollers.
+DAP Cat Programmer is a low-cost of $4.99 dollars debug probe based on the CMSIS-DAP (also known as DAPLink) protocol standard and USB-Serial convert and it can realize USB convert to serial interface. It can be used to program and debug the application software running on Arm Cortex Microcontrollers.
 
 The probe comes with indicator LEDs, a button to reset the target or trigger the firmware update, reversible USB-C connector and easy-to-use 10-pin 2.54mm Header.
 
@@ -24,7 +24,7 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 - Easy-to-use 5-pin 2.54mm Header with SWD & UART interface
 - Very small form factor: 20 x 48 mm
 
-<a href="https://electroniccats.com/store/nfc-copy-cat/">
+<a href="https://electroniccats.com/store/dapcat/">
   <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
 </a>
 
@@ -51,7 +51,7 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 
 ## Driver for windows
 
-![Zadig image](https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/docs/Zadig_bootloader.png)
+![Zadig](https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/40640735/20f180bb-a7de-46db-a510-1c67a81837b7)
 
 [Zadig](https://zadig.akeo.ie/) is the recommended tool to install drivers in Windows. The bootloader (4348,55E0) should be installed with WinUSB or libusb-win32 driver.
 
@@ -68,7 +68,7 @@ LGPL
 
 Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
 
-<a href="https://electroniccats.com/store/nfc-copy-cat/">
+<a href="https://electroniccats.com/store/dapcat/">
   <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
 </a>
 
