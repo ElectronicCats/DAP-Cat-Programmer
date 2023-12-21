@@ -6,7 +6,7 @@
 
 <p align=center>
 <a href="https://electroniccats.com/store/dapcat/">
-  <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
+  <img src="https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/122187221/d6df8526-4942-40d9-8ea7-b41e3507282c" width="200" height="104" />
 </a>
 </p>
 
