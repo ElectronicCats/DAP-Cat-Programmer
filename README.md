@@ -1,7 +1,7 @@
 # CMSIS-DAP Cat Programmer
 
 <p align="center">
-  <img src="https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/122187221/bf885e27-e3a4-43e5-a996-fd8483eab528" />
+  <img src="https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/122187221/5ca5f7fd-8bab-4b82-ac6a-359b82d94f0f" />
 </p>
 
 <p align=center>
@@ -18,7 +18,7 @@ The probe comes with indicator LEDs, a button to reset the target or trigger the
 ## Wiki and Getting Started
 
 <p align="center">
-  <img src="https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/122187221/51e93c7e-6725-4957-8540-9b8b723a19cc" />
+  <img src="https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/122187221/6d2caa49-4c0b-4333-8c20-7960deaafa65" />
 </p>
 
 <p align=center>
