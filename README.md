@@ -8,24 +8,15 @@
 <a href="https://electroniccats.com/store/dapcat/">
   <img src="https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/122187221/d6df8526-4942-40d9-8ea7-b41e3507282c" width="200" height="104" />
 </a>
+<a href="https://github.com/ElectronicCats/DAP-Cat-Programmer/wiki">
+  <img src="https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/122187221/6788e188-7855-46f6-bc71-83a8702489f7" width="200" height="104" />
+</a>
 </p>
 
 ## Description
 An Open-Source CMSIS-DAP Debug Probe based on DAPLink. DAP Cat Programmer is a low-cost $4.99 dollars debug probe based on the CMSIS-DAP (also known as DAPLink) protocol standard and USB-Serial conversion, and it can realize USB conversion to serial interface. It can be used to program and debug the application software running on Arm Cortex Microcontrollers.
 
 The probe comes with indicator LEDs, a button to reset the target or trigger the firmware update, a reversible USB-C connector, and an easy-to-use 10-pin 2.54mm Header.
-
-## Wiki and Getting Started
-
-<p align="center">
-  <img src="https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/122187221/6d2caa49-4c0b-4333-8c20-7960deaafa65" />
-</p>
-
-<p align=center>
-<a href="https://github.com/ElectronicCats/DAP-Cat-Programmer/wiki">
-  <img src="https://github.com/AndreaZGuz/magspoof/assets/122187221/0ce49fe7-c43b-47fe-977c-97a64bd86575" width="300" height="156" />
-</a>
-</p>
 
 ## Special Thanks
 
