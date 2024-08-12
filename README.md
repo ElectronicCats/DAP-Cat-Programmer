@@ -2,7 +2,7 @@
 
 <a href="https://github.com/ElectronicCats/DAP-Cat-Programmer/wiki">
   <p align="center">
-  <img src="https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/122187221/5ca5f7fd-8bab-4b82-ac6a-359b82d94f0f" height="400" />
+  <img src="https://github.com/ElectronicCats/DAP-Cat-Programmer/assets/122187221/5ca5f7fd-8bab-4b82-ac6a-359b82d94f0f" height="600" />
     </p>
 </a>
 
